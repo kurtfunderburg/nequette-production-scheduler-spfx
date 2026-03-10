@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "production-scheduler-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/productionScheduler/ProductionSchedulerWebPart.js",
+          "manifest": "./src/webparts/productionScheduler/ProductionSchedulerWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ProductionSchedulerWebPartStrings": "lib/webparts/productionScheduler/loc/{locale}.js"
+  }
+}

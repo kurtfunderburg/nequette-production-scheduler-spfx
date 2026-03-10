@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "nequette-production-scheduler-spfx-client-side-solution",
+    "id": "b21b005b-158f-435e-b10c-940be956026f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "nequette-production-scheduler-spfx description"
+      },
+      "longDescription": {
+        "default": "nequette-production-scheduler-spfx description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "nequette-production-scheduler-spfx Feature",
+        "description": "The feature that activates elements of the nequette-production-scheduler-spfx solution.",
+        "id": "d5ffca68-eb72-45b6-8ba7-1c93bc5c21d7",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/nequette-production-scheduler-spfx.sppkg"
+  }
+}
